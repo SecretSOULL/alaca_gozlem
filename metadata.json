@@ -1,0 +1,5 @@
+{
+  "name": "SARGE — Space Weather Command Center",
+  "description": "Real-time monitoring of Earth's magnetosphere and solar wind telemetry from NOAA's DSCOVR satellite at L1.",
+  "requestFramePermissions": []
+}
