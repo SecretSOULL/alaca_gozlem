@@ -1,20 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🛰️ Alaca Gözlem: Güneş Fırtınası Erken Uyarı Sistemi
 
-# Run and deploy your AI Studio app
+Alaca Gözlem, Güneş aktivitelerini anlık olarak takip eden, analiz eden ve olası güneş fırtınalarına karşı erken uyarı üreten web tabanlı bir uzay havası izleme platformudur. Bu proje, uzay havası kaynaklı riskleri minimize etmek amacıyla bir hackathon kapsamında geliştirilmiştir.
 
-This contains everything you need to run your app locally.
+## 📌 Projenin Amacı
+Güneş patlamaları (CME) ve şiddetli güneş rüzgarları; yörüngedeki uyduları, yeryüzündeki güç şebekelerini ve GPS sistemlerini ciddi şekilde tehdit edebilir. Alaca Gözlem, karmaşık uzay verilerini anlamlı risk skorlarına dönüştürerek kritik altyapılar için felaketleri önceden haber veren otonom bir sistem sunar.
 
-View your app in AI Studio: https://ai.studio/apps/9a084302-87ce-4932-803e-32778a5c4ee4
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🌟 Temel Özellikler
+* **Anlık Veri Takibi:** Kp İndeksi, Güneş Rüzgarı (Hız/Yoğunluk), Bz/Bt manyetik alan değerleri ve Proton/X-Ray akısı.
+* **NOAA Standartları:** R (Radyo Kesintisi), S (Radyasyon Fırtınası) ve G (Jeomanyetik Fırtına) ölçeklerinin canlı verilerle otomatik hesaplanması.
+* **Otomatik Uyarı Sistemi:** Kritik eşik aşımlarında (örn. Kp > 5, Bz < -10 nT veya Dinamik Basınç artışında) anında bildirim üretimi.
